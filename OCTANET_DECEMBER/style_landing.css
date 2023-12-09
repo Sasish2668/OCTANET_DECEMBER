@@ -1,0 +1,205 @@
+#section-1{
+    height: 100px;
+    width: 100%;
+}
+.title{
+    position: absolute;
+    top: -45px;
+    left: 150px;
+    color: black;
+    font-size: 70px;
+}
+#menu{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    list-style-type: none;
+    display: flex;
+    justify-self: baseline;
+}
+ul>li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+#travel, #enrol{
+    filter: blur(5px);
+}
+#enrol{
+    position: absolute;
+    top: 250px;
+    right: 175px;
+    height: 60%;
+    width: 400px;
+}
+.welcome{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    font-family: cursive, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 4px 4px gainsboro;
+}
+.bio{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: fantasy;
+    width: 700px;
+    text-align: justify;
+}
+form{
+    position: absolute;
+    top: 300px;
+    right: 225px;
+    max-width: 300px;
+    font-family: 25px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+}
+input[type="checkbox"]{
+    width: 20px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: blue;
+    font-weight: bold;
+}
+input[type="submit"]{
+    height: 40px;
+    font-size: 30px;
+    border: 0;
+    background-color: burlywood;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}#section-3>div{
+    height: 200px;
+    background-color: goldenrod;
+    display: flex;
+    margin-top: 5px;
+}
+#section-3 > #ooty, #section-3 > #jaipur, #section-3 > #mussorie{
+    display: flex;
+    justify-content: end;
+    background-color: green;
+}
+.manali-head, .manali-para{
+    position: absolute;
+    left: 625px;
+    width: 800px;
+    color: crimson;
+}
+.manali-para{
+    position: absolute;
+    top: 1000px;
+    color: aliceblue;
+    text-align: justify;
+}
+.ooty-head,.ooty-para{
+    position: absolute;
+    left: 80px;
+    color: crimson;
+    width: 800px;
+}
+.ooty-para{
+    position: absolute;
+    top: 1205px;
+    color: aliceblue;
+    text-align: justify;
+}
+.nainital-head, .nainital-para{
+    position: absolute;
+    left: 625px;
+    width: 800px;
+    color: crimson;
+}
+.nainital-para{
+    position: absolute;
+    top: 1410px;
+    color: aliceblue;
+    text-align: justify;
+}
+.jaipur-head,.jaipur-para{
+    position: absolute;
+    left: 80px;
+    color: crimson;
+    width: 800px;
+}
+.jaipur-para{
+    position: absolute;
+    top: 1615px;
+    color: aliceblue;
+    text-align: justify;
+}
+.darjeeling-head, .darjeeling-para{
+    position: absolute;
+    left: 625px;
+    width: 800px;
+    color: crimson;
+}
+.darjeeling-para{
+    position: absolute;
+    top: 1820px;
+    color: aliceblue;
+    text-align: justify;
+}
+.mussorie-head,.mussorie-para{
+    position: absolute;
+    left: 80px;
+    color: crimson;
+    width: 800px;
+}
+.mussorie-para{
+    position: absolute;
+    top: 2025px;
+    color: aliceblue;
+    text-align: justify;
+}
+ol, .steps{
+    position: absolute;
+    top: 2250px;
+    left: 100px;
+    font-size: 40px;
+}
+.steps{
+    position: absolute;
+    top: 2175px;
+    font-size: 50px;
+}
+#info{
+    background-color: blueviolet;
+    height: 450px;
+    color: yellow;
+}
+.bottom{
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    background-color: orangered;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orangered;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
